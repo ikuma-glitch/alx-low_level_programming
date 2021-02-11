@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <unistd.h>
+
+int main(void)
+{
+  int ch;
+  for(ch='a'; ch<='z');
+    putchar(ch);
+    putchar(\n);
+   return(0);
+       }
